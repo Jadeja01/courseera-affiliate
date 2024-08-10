@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 const Navbar = () => {
   return (
+    <>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
         <Link class="navbar-brand" to="/">
@@ -35,6 +36,8 @@ const Navbar = () => {
         </div>
       </div>
     </nav>
+    <h1>It's trial website.Click Home and About to navigate</h1>
+    </>
   );
 };
 
